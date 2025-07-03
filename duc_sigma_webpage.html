@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đức Sigma</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: radial-gradient(circle, #0f0f0f, #000000);
+      color: #ffffff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .emoji-banner {
+      position: absolute;
+      white-space: nowrap;
+      top: 10%;
+      font-size: 2rem;
+      animation: scrollText 8s linear infinite;
+      color: #ff00ff;
+      text-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff;
+    }
+    @keyframes scrollText {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+    .main-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    h1, h2, .tagline {
+      animation: blink 1s infinite alternate;
+    }
+    @keyframes blink {
+      from { opacity: 1; text-shadow: 0 0 10px #00ffe1; }
+      to { opacity: 0.6; text-shadow: 0 0 20px #ff00ff; }
+    }
+    h1 {
+      font-size: 3.5rem;
+      color: #00ffe1;
+      margin: 0;
+    }
+    h2 {
+      font-size: 1.7rem;
+      color: #ffffffcc;
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .tagline {
+      font-size: 1rem;
+      color: #888;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="emoji-banner">🗿 đức bel bel bel bánh bèo ba bánh bún bò 🗿 🗿 đức bel bel bel bánh bèo ba bánh bún bò 🗿</div>
+  <div class="main-content">
+    <h1>Đức Sigma 🐺</h1>
+    <h2>"Đừng sợ thất bại, hãy sợ không phải là đàn ông đích thực 💪"</h2>
+    <div class="tagline">Tặng bởi một người bạn hiểu chuyện 😎</div>
+  </div>
+</body>
+</html>
